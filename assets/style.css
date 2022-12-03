@@ -1,3 +1,11 @@
 h1 {
     text-align: center;
 }
+
+main {
+    background-color: aqua;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+}

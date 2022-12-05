@@ -1,4 +1,4 @@
-var questions = document.querySelectorAll(".question");
+/*var questions = document.querySelectorAll(".question");
 var cursor = 0;
 
 
@@ -29,3 +29,9 @@ var advance = function (event) {
 document.addEventListener("CLICK", advance);
 
 showQuestion();
+
+*/
+var questions = document.querySelectorAll(".question");
+for (var i = 0; i < questions.length; i++) {
+    questions[i].setAttribute("style", "color: white");
+}

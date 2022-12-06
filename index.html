@@ -12,69 +12,69 @@
 <body>
   <header>
     <h1>Coding Quiz Challenge</h1>
-    <p>Try to answer the followinng code-related questions within the time limit, Keep in mind thet incorrect 
+    <p>Try to answer the followinng code-related questions within the time limit, Keep in mind thet incorrect
       answers will penalize your score/time by 15 seconds!</p>
     <button class="buttonStart">start Quiz</button>
   </header>
   <main class="container">
 
-    <section>
-      <div class="question">
-        <h2 id="next">Commonly used data types DO NOT include:</h2>
+    
+    <section class="question" data-index="0">
+        <h2>Commonly used data types DO NOT include:</h2>
 
-        <ol>
+        <div id="next">
           <button>strings</button>
           <button>booleans</button>
           <button>alerts</button>
           <button>numbers</button>
-        </ol>
-      </div>
+
+        </div>
     </section>
 
-    <section>
-      <div class="question">
+    <section class="question" data-index="1">
 
-        <h2 id="next">The condition in an if / else statement is enclosed within...</h2>
-        <ol>
+        <h2>The condition in an if / else statement is enclosed within...</h2>
+        <div id="next">
           <button>quotes</button>
           <button>curly brackets</button>
           <button>parentheses</button>
           <button>square brackets</button>
-        </ol>
-      </div>
+
+        </div>
     </section>
 
-    <section>
-      <div class="question">
+    <section class="question" data-index="2">
 
-        <h2 id="next">Arrays in JavaScript can be used to store...</h2>
+        <h2>Arrays in JavaScript can be used to store...</h2>
+        <div id="next">
+          <button>numbers and strings</button>
+          <button>other arrays</button>
+          <button>booleans</button>
+          <button>all of the above</button>
 
-        <button>numbers and strings</button>
-        <button>other arrays</button>
-        <button>booleans</button>
-        <button>all of the above</button>
-
-      </div>
+        </div>
     </section>
 
-    <section>
-      <div class="question">
-        <h2 id="next">String values must be enclosed within ... shen being assigned to variables.</h2>
+    <section class="question" data-index="3">
 
-        <button>answer2</button>
-        <button>answer2</button>
-        <button>answer2</button>
-        <button>answer2</button>
-      </div>
+        <h2>String values must be enclosed within ... shen being assigned to variables.</h2>
+        <div id="next">
+          <button>answer2</button>
+          <button>answer2</button>
+          <button>answer2</button>
+          <button>answer2</button>
+        </div>
     </section>
-    <div class="question">
-      <h2 id="next">A very useful tool used during development and debugging for printing content to the debugger is:</h2>
+    
+    <section class="question" data-index="4">
 
-      <button>JavaScript</button>
-      <button>terminal / bash</button>
-      <button>for loops</button>
-      <button>console.log</button>
-    </div>
+      <h2>A very useful tool used during development and debugging for printing content to the debugger is:</h2>
+      <div id="next">
+        <button>JavaScript</button>
+        <button>terminal / bash</button>
+        <button>for loops</button>
+        <button>console.log</button>
+      </div>
   </main>
 
   <script src="./assets/script.js"></script>
